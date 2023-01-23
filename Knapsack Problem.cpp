@@ -28,5 +28,25 @@ int main()
     int t;
     cout<<"Enter the number of test cases : ";
     cin>>t;
+    while(t--)
+    {
+        int n, w;
+        cout<<"Enter the arrays' size : ";
+        cout<<"Enter the size of the knapsack : ";
+        cin>>n>>w;
+        
+        int val[n];
+        int wt[n];
+        
+        for(int i=0;i<n;i++)
+            cin>>val[i];
+            
+        for(int i=0;i<n;i++)
+            cin>>wt[i];
+            
+        Solution obj;
+        cout<<obj.knapSack(w, wt, val, n)<<endl;  
+    }
+	return 0;
     
 }
