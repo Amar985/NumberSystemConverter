@@ -11,5 +11,8 @@ public:
 
 int main()
 {
+    int t;
+    cout<<"Enter the number of test cases : ";
+    cin>>t;
     
 }
