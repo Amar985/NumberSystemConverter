@@ -28,13 +28,13 @@ public:
 int main()
 {
     int t;
-    cout<<"Enter the number of test cases : ";
+    cout<<"Enter the number of test cases: ";
     cin>>t;
     while(t--)
     {
         int n, w;
-        cout<<"Enter the arrays' size : ";
-        cout<<"Enter the size of the knapsack : ";
+        cout<<"Enter the array's size : ";
+        cout<<"Enter the size of the knapsack: ";
         cin>>n>>w;
         
         int val[n];
