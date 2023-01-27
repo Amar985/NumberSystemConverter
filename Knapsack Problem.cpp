@@ -34,7 +34,7 @@ int main()
     {
         int n, w;
         cout<<"Enter the array's size: ";
-        cout<<"Enter the size of the knapsack: ";
+        cout<<"Enter the size of the knapsack:";
         cin>>n>>w;
         
         int val[n];
