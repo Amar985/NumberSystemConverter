@@ -17,7 +17,7 @@ def get1():  # Function to check the input of decimal
         return get1()  # Requesting user to enter again
 
 
-def get2():  
+def get2():  # Function to check the input of binary
     x = input("Please Enter any number: ")
     n_t = {"0", "1", "."}
     t = set(x)
