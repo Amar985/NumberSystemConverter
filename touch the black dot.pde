@@ -1,4 +1,6 @@
-
+int score = 0;
+float x = 100;
+float y = 100;
 
 void setup() {
   size(400, 400);
