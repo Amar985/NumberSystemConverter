@@ -1,4 +1,3 @@
-# Only Number System Converter U Need
 # NOBNOT
 MENU = {
     "espresso": {
