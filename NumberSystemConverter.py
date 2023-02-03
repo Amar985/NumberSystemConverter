@@ -4,7 +4,7 @@ import ast
 import math 
 
 
-def get1():  
+def get1():  # Function to check the input of decimal
     x = input("Please Enter any number: ")
     try:
         if isinstance(ast.literal_eval(x), int):  # Check for integer
