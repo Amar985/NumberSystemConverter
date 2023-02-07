@@ -17,6 +17,13 @@ public class InsertionSort
         }
     }
 
+    void printArr(int a[])
+    {
+        int i;
+        int n = a.length;
+        for (i = 0; i < n; i++)
+            System.out.print(a[i] + " ");
+    }
     public static void main(String[] args) {
         int a[] = { 92, 50, 5, 20, 11, 22 };
         InsertionSort i1 = new InsertionSort();
