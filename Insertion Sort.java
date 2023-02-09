@@ -24,14 +24,3 @@ public class InsertionSort
         for (i = 0; i < n; i++)
             System.out.print(a[i] + " ");
     }
-    public static void main(String[] args) {
-        int a[] = { 92, 50, 5, 20, 11, 22 };
-        InsertionSort i1 = new InsertionSort();
-        System.out.println("\nBefore sorting array elements are - ");
-        i1.printArr(a);
-        i1.insert(a);
-        System.out.println("\n\nAfter sorting array elements are - ");
-        i1.printArr(a);
-        System.out.println();
-    }
-}
