@@ -141,10 +141,4 @@ while True:  # Choosing binary to decimal and vice-versa
             else:
                 break  # Terminating if user do not wish to continue
 
-    choices = input(
-        "Do you want to exit the program(Y/N): "
-    )  # Asking whether to exit program
-    if choice(choices) is False:
-        continue
-    else:
-        break
+    
