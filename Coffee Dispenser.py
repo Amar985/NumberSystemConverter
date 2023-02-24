@@ -29,12 +29,7 @@ MENU = {
     }
 }
 
-profit = 0
-resources = {
-    "water": 300,
-    "milk": 200,
-    "coffee": 100,
-}
+
 
 
 def is_resource_sufficient(order_ingredients):
