@@ -123,28 +123,3 @@ while True:  # Choosing binary to decimal and vice-versa
             else:
                 break  # Terminating if user do not wish to continue
 
-    elif main == 2:  # Decimal to Binary
-        print("Welcome to Binary to Decimal number system converter")
-        while True:
-            inp = get2()  # Calling function for input
-            n = inp[0]
-            m = inp[1]
-
-            if m == 1:  # For integer part
-                print("The decimal form is: ", decimal1(str(n)))
-            if m == 2:  # For floating part
-                print("The decimal form is: ", decimal2(str(n)))
-
-            c = input("Do you want to try again (Yes or No): ")
-            if choice(c) is True:
-                continue
-            else:
-                break  # Terminating if user do not wish to continue
-
-    choices = input(
-        "Do you want to exit the program(Y/N): "
-    )  # Asking whether to exit program
-    if choice(choices) is False:
-        continue
-    else:
-        break
