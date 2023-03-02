@@ -13,3 +13,10 @@ void draw() {
   text("Score: " + score, 10, 20);
 }
 
+void mousePressed() {
+  if (dist(mouseX, mouseY, x, y) < 25) {
+    score++;
+    x = random(width);
+    y = random(height);
+  }
+}
