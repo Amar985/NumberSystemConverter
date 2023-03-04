@@ -71,16 +71,7 @@ def is_transcation_successful(money_recieved, drink_cost):
         return False
 
 
-def make_coffee(drink_name, order_ingredients):
-    
-    """Deduct the required ingridients from the resources"""
-    
-    for item in order_ingredients:
-        resources[item] -= order_ingredients[item]
-    print(f"Here is you {drink_name} ☕. Enjoy!")
 
-
-is_on = True
 
 
 while is_on:
