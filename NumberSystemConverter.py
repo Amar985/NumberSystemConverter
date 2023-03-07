@@ -1,6 +1,7 @@
 # Only Number System Converter U Need
 
-
+import ast
+import math 
 
 
 def get1():  # Function to check the input of decimal
