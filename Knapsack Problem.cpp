@@ -25,33 +25,7 @@ public:
     }
 }
 
-int main()
-{
-    int t;
-    cout<<"Enter the number of test cases: ";
-    cin>>t;
-    while(t--)
-    {
-        int n, w;
-        cout<<"Enter the array's size: ";
-        cout<<"Enter the size of the knapsack: ";
-        cin>>n>>w;
-        
-        int val[n];
-        int wt[n];
-        
-        for(int i=0;i<n;i++)
-            cin>>val[i];
-            
-        for(int i=0;i<n;i++)
-            cin>>wt[i];
-            
-        Solution obj;
-        cout<<obj.knapSack(w, wt, val, n)<<endl;  
-    }
-	return 0;
-    
-}
+
 
 /*0 - 1 Knapsack Problem 
 You are given weights and values of N items, put these items in a knapsack 
