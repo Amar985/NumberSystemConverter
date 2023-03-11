@@ -12,5 +12,5 @@ public class BMI_Calculator
       System.out.print("\nThe Body Mass Index (BMI) is " + BMI + " kg/m2");
    }
 }
-//Amar Kumar
+//Amar Kumar  
 //NOBNOT
