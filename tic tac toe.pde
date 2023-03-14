@@ -54,10 +54,5 @@ void checkWin() {
     println("Player " + board[0][0] + " wins!");
     exit();
   }
-  if (board[0][2] == board[1][1] && board[1][1] == board[2][0] && board[0][2] != 0) {
-    println("Player " + board[0][2] + " wins!");
-    exit();
-  }
-}
 
 
